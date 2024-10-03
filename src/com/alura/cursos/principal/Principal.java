@@ -105,8 +105,8 @@ public class Principal {
         }
 
         Moneda moneda = consulta.buscaMoneda(base, codigo, cantidad);
-        System.out.println("El valor "+cantidad+" ["+moneda.target_code()+"] corresponde al valor final de ==> "+
-                moneda.conversion_result()+" ["+moneda.base_code()+"]");
+        System.out.println("El valor "+cantidad+" ["+moneda.base_code()+"] corresponde al valor final de ==> "+
+                moneda.conversion_result()+" ["+moneda.target_code()+"]");
 
     }
 }
